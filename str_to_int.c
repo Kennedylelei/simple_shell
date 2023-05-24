@@ -27,8 +27,8 @@ int is_delim(char k, char *delim)
 
 /**
  *_isalpha - this checks for alphabetic character
- *@c: The character to input
- *Return: 1 if c is alphabetic, 0 otherwise
+ *@k: The character to input
+ *Return: 1 if k is alphabetic, 0 otherwise
  */
 
 int _isalpha(int k)

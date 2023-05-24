@@ -26,7 +26,7 @@ int main(int ac, char **av)
 				exit(126);
 			if (errno == ENOENT)
 			{
-				eputs(av[0]);
+				_eputs(av[0]);
 				_eputs(": 0: Can't open ");
 				_eputs(av[1]);
 				_eputchar('\n');
